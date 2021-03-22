@@ -1,5 +1,10 @@
 ## Maven Calculator App
-A simple calculator app I am building as I am learning Java
+A simple calculator app I am building as I am learning Maven
+
+### Generate a project using a Maven Archetype
+```
+mvn archetype:generate
+```
 
 ### Compile
 ```bash
