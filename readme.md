@@ -20,3 +20,13 @@ mvn package
 ```bash
 mvn test
 ```
+
+### Maven strategies for dependency collisions
+- Nearest definition
+- First declaration
+
+### Maven scopes
+- By default, every dependency has compile scope
+- "provided" scope is for compiling, but not needed to included in distributable
+- "runtime" scope is the opposite of "provided" scope. something that you need to be present in runtime, but not while compile time
+
