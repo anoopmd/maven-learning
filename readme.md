@@ -16,6 +16,12 @@ mvn compile
 mvn package
 ```
 
+### Install
+```bash
+# This packages your artifact and makes it available in your local repository
+mvn install
+```
+
 ### Test
 ```bash
 mvn test
