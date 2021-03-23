@@ -27,6 +27,11 @@ mvn install
 mvn test
 ```
 
+### Run
+```
+mvn exec:java -Dexec.mainClass=com.acme.App
+```
+
 ### Maven strategies for dependency collisions
 - Nearest definition
 - First declaration
